@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         jokeViewModel.delegate = self
+     
     }
 
     @IBAction func generateJoke(_ sender: UIButton) {
