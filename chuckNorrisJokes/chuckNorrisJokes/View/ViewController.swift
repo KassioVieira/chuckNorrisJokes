@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         jokeViewModel.delegate = self
+        
+        jokeViewModel.getJoke()
      
     }
 
@@ -24,6 +26,10 @@ class ViewController: UIViewController {
         jokeViewModel.getJoke()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return UIStatusBarStyle.lightContent
+    }
+
 }
 
 extension ViewController: JokeViewModelDelegate {
