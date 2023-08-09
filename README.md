@@ -4,10 +4,4 @@ This app was created using Swift and Storyboard. The reason was to study concept
 
 # Screen
 
-<table>
-  <tr>
-    <td>
-      <img src="img/app.png" alt="screen" width="200"/>
-    </td>
-  <tr>
-</table>
+<img src="img/app.png" alt="screen" width="200"/>
